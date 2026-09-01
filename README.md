@@ -1216,13 +1216,7 @@ A formal journal citation should replace the text above once the article is publ
 
 A `CITATION.cff` file can also be added to the repository after the final publication metadata and DOI are available.
 
----
 
-# License
-
-No software license is specified in the current prototype.
-
-Before public distribution or reuse by third parties, add an appropriate `LICENSE` file and update this section to reflect the selected license.
 
 ---
 
