@@ -1086,9 +1086,6 @@ Automated ingestion from ClinVar, gnomAD, OMIM, HPO, GO, and other resources is 
 
 The included semantic model is a starter implementation. A publication-grade version should map concepts to exact reusable ontology IRIs where appropriate and formally document ontology reuse.
 
-### 6. No clinical performance claims
-
-Accuracy, sensitivity, specificity, concordance, reduction in VUS, or improvement over commercial interpretation systems should not be claimed until the system is evaluated against an independently curated benchmark dataset.
 
 ---
 
@@ -1217,18 +1214,6 @@ A formal journal citation should replace the text above once the article is publ
 A `CITATION.cff` file can also be added to the repository after the final publication metadata and DOI are available.
 
 
-
----
-
-# Authors
-
-**Dalia Alghamdi**  
-King Fahad Medical City  
-Riyadh, Saudi Arabia
-
-**Ali AlFaiz**  
-King Fahad Medical City  
-Riyadh, Saudi Arabia
 
 ---
 
