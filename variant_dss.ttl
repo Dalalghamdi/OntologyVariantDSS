@@ -1,0 +1,21 @@
+@prefix dss: <https://example.org/variant-dss/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dss:VariantDSSOntology a owl:Ontology ;
+  rdfs:label "Variant interpretation decision-support ontology (prototype)" .
+
+dss:Variant a owl:Class .
+dss:Gene a owl:Class .
+dss:Disease a owl:Class .
+dss:Phenotype a owl:Class .
+dss:EvidenceStatement a owl:Class .
+dss:ACMGCriterion a owl:Class .
+dss:Publication a owl:Class .
+dss:locatedInGene a owl:ObjectProperty ; rdfs:domain dss:Variant ; rdfs:range dss:Gene .
+dss:associatedWithDisease a owl:ObjectProperty ; rdfs:domain dss:Variant ; rdfs:range dss:Disease .
+dss:hasPhenotype a owl:ObjectProperty ; rdfs:domain dss:Variant ; rdfs:range dss:Phenotype .
+dss:hasEvidence a owl:ObjectProperty ; rdfs:domain dss:Variant ; rdfs:range dss:EvidenceStatement .
+dss:satisfiesCriterion a owl:ObjectProperty ; rdfs:domain dss:EvidenceStatement ; rdfs:range dss:ACMGCriterion .
+dss:supportedByPublication a owl:ObjectProperty ; rdfs:domain dss:EvidenceStatement ; rdfs:range dss:Publication .
