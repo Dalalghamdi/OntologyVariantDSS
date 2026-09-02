@@ -42,7 +42,6 @@ The prototype is designed as an **explainable semantic decision-support environm
 - [Planned Development](#planned-development)
 - [Research Use](#research-use)
 - [Citation](#citation)
-- [License](#license)
 - [Authors](#authors)
 - [Acknowledgment](#acknowledgment)
 - [Disclaimer](#disclaimer)
