@@ -381,7 +381,7 @@ GraphDB is **not required** to run the prototype locally.
 Using Git:
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone <https://github.com/Dalalghamdi/OntologyVariantDSS/>
 cd ontology_variant_dss
 ```
 
@@ -437,7 +437,7 @@ http://127.0.0.1:8000
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone <https://github.com/Dalalghamdi/OntologyVariantDSS/>
 cd ontology_variant_dss
 ```
 
